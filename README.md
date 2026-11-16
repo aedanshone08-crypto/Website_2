@@ -8,3 +8,8 @@ There are 2 differnt description one for primary description and the other be fo
 There a design on the delivery part of the website.
 There are 2 ways of going back to home. One by go and click the home link and the logo
 The images is kind of what we sell.
+
+Fixes to the website:
+
+Added the dark mode to the project.
+Manage to change the hover color for the link from black to red to be more vissible in both modes.
