@@ -1,5 +1,31 @@
 <title>What else we do</title>
 <head>
+
+            <style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;    
+  transition: tansformation 0.5s;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+   transition: tansformation 0.5s;
+}
+</style>
+    <button onclick="myFunction()">Toggle dark mode</button>
+
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<p></p>
+
     <a href =" Design.html"><img src = "steak.jpg" style width = 20%; height = auto alt = "the company logo - this  is an icon of a steak."></a>
     <link rel="stylesheet" href=".css">
 </head>
@@ -75,7 +101,7 @@
         text-decoration: underline;
         font-size: 24px;
         font-style: italic;
-        color:black;
+        color:red;
         height: 1.7;
         width: 1.7;
         word-spacing: 4px;
